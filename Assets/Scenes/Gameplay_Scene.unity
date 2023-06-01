@@ -1163,7 +1163,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b79f5fcfa1339534d863a719db19f956, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca3b51fb1cb7d7b4280d45a83a0c3107, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1240,8 +1240,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Naura Twoja stara\n\nTylko, \u017Ce ma\u0142a to trak wielka a ja to nie
-    \n i w sumie o id\u0119 paa\nhdagbkyjhu agbyhdgvbhawfvdhgv\ndadagbdyaujhgdvhajfdv"
+  m_text: 'Cool tones, like a gentle breeze on a tranquil sea,
+
+    Convey serenity
+    and calmness, inviting reverie.
+
+    Blues and greens, soothing and serene,
+
+    Evoke
+    a sense of peace, tranquil and pristine.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1948,8 +1955,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ale maniana\n\nBabcia Marysia okaza\u0142a si\u0119 w ci\u0105zu albo
-    eee niewa\u017Cne, zapomnij co tu wdzia\u0142e\u015B ok? oK?!?!"
+  m_text: "In the beginning, there was...\r\n\nWell... Actually... \n\nNothing.\r\n\nPerhaps
+    you could start something?\r\nTry something simple,\r\nA reason to stir this
+    darkness.\n\nIn the realm of colors, let us converse and explore,\r\nDo you find
+    solace in cool tones or warmth's allure?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2199,8 +2208,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Naura Twoja stara\n\nTylko, \u017Ce ma\u0142a to trak wielka a ja to nie
-    \n i w sumie o id\u0119 paa\nhdagbkyjhu agbyhdgvbhawfvdhgv\ndadagbdyaujhgdvhajfdvfauihwjnfudiafefsfs"
+  m_text: 'Warm tones, ablaze with passion and fire,
+
+    Radiate energy and warmth,
+    igniting desire.
+
+    With reds and golds, vibrant and bold,
+
+    Emotions
+    awaken, stories unfold.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2386,6 +2402,10 @@ MonoBehaviour:
   ImageChoice00: {fileID: 0}
   ImageChoiceA: {fileID: 0}
   ImageChoiceB: {fileID: 0}
+  ImageChoiceAA: {fileID: 0}
+  ImageChoiceAB: {fileID: 0}
+  ImageChoiceBA: {fileID: 0}
+  ImageChoiceBB: {fileID: 0}
   ChoiceMade: 0
 --- !u!1 &1178104195
 GameObject:
@@ -4056,7 +4076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ca3b51fb1cb7d7b4280d45a83a0c3107, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b79f5fcfa1339534d863a719db19f956, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4614,6 +4634,10 @@ MonoBehaviour:
   ImageChoice00: {fileID: 1137767180}
   ImageChoiceA: {fileID: 939988820}
   ImageChoiceB: {fileID: 1313300077}
+  ImageChoiceAA: {fileID: 859377156}
+  ImageChoiceAB: {fileID: 543174053}
+  ImageChoiceBA: {fileID: 1682067079}
+  ImageChoiceBB: {fileID: 292396491}
   ChoiceMade: 0
 --- !u!4 &2081485116
 Transform:
