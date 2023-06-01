@@ -51,8 +51,8 @@ public class Dialogue_Script : MonoBehaviour
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "In the vast tapestry of existence, our souls, shaping our perceptions and urge.\r\nSo, share your preference, let it be heard,\r\nFor in the dialogue of tones, our perspectives are stirred.";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "My preference leans towards the depths of darkness' embrace,\r\nWhere introspection thrives, unveiling mysteries in its trace.\r\nYet, light's radiance also holds a special place in my heart,\r\nIlluminating the path, igniting hope, a vibrant start.";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "In this vast tapestry of existence, where our souls intertwine,\r\nOur preferences, like brushstrokes, define the hues that align.\r\nAs for me, I find solace in the interplay of both,\r\nEmbracing the duality, cherishing their growth.";
-            ImageChoiceA.SetActive(false);
-            ImageChoiceAB.SetActive(true);
+            ImageChoiceB.SetActive(false);
+            ImageChoiceBA.SetActive(true);
             ChoiceMade = 5;
         }
         else if (ChoiceMade == 3) //4 wyniki - razem 8
@@ -71,8 +71,8 @@ public class Dialogue_Script : MonoBehaviour
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
             ImageChoiceA.SetActive(false);
-            ImageChoiceAA.SetActive(false);
-            ImageChoiceAAB.SetActive(true);
+            ImageChoiceAB.SetActive(false);
+            ImageChoiceABA.SetActive(true);
             ChoiceMade = 9;
         }
         else if (ChoiceMade == 5)
@@ -80,9 +80,9 @@ public class Dialogue_Script : MonoBehaviour
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
-            ImageChoiceA.SetActive(false);
-            ImageChoiceAB.SetActive(false);
-            ImageChoiceABA.SetActive(true);
+            ImageChoiceB.SetActive(false);
+            ImageChoiceBA.SetActive(false);
+            ImageChoiceBAA.SetActive(true);
             ChoiceMade = 11;
         }
         else if (ChoiceMade == 6)
@@ -90,9 +90,9 @@ public class Dialogue_Script : MonoBehaviour
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
-            ImageChoiceA.SetActive(false);
-            ImageChoiceAB.SetActive(false);
-            ImageChoiceABB.SetActive(true);
+            ImageChoiceB.SetActive(false);
+            ImageChoiceBB.SetActive(false);
+            ImageChoiceBBA.SetActive(true);
             ChoiceMade = 13;
         }
 
@@ -114,7 +114,7 @@ public class Dialogue_Script : MonoBehaviour
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "My preference leans towards the depths of darkness' embrace,\r\nWhere introspection thrives, unveiling mysteries in its trace.\r\nYet, light's radiance also holds a special place in my heart,\r\nIlluminating the path, igniting hope, a vibrant start.";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "In this vast tapestry of existence, where our souls intertwine,\r\nOur preferences, like brushstrokes, define the hues that align.\r\nAs for me, I find solace in the interplay of both,\r\nEmbracing the duality, cherishing their growth.";
             ImageChoiceA.SetActive(false);
-            ImageChoiceBA.SetActive(true);
+            ImageChoiceAB.SetActive(true);
             ChoiceMade = 4;
         }
         else if (ChoiceMade == 2)
@@ -132,8 +132,8 @@ public class Dialogue_Script : MonoBehaviour
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
             ImageChoiceA.SetActive(false);
-            ImageChoiceBA.SetActive(false);
-            ImageChoiceBAA.SetActive(true);
+            ImageChoiceAA.SetActive(false);
+            ImageChoiceAAB.SetActive(true);
             ChoiceMade = 8;
         }
         else if (ChoiceMade == 4)
@@ -142,8 +142,8 @@ public class Dialogue_Script : MonoBehaviour
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
             ImageChoiceA.SetActive(false);
-            ImageChoiceBA.SetActive(false);
-            ImageChoiceBAB.SetActive(true);
+            ImageChoiceAB.SetActive(false);
+            ImageChoiceABB.SetActive(true);
             ChoiceMade = 10;
         }
         else if (ChoiceMade == 5)
@@ -151,7 +151,7 @@ public class Dialogue_Script : MonoBehaviour
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
-            ImageChoiceA.SetActive(false);
+            ImageChoiceB.SetActive(false);
             ImageChoiceBB.SetActive(false);
             ImageChoiceBBA.SetActive(true);
             ChoiceMade = 12;
@@ -161,7 +161,7 @@ public class Dialogue_Script : MonoBehaviour
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
-            ImageChoiceA.SetActive(false);
+            ImageChoiceB.SetActive(false);
             ImageChoiceBB.SetActive(false);
             ImageChoiceBBB.SetActive(true);
             ChoiceMade = 14;
