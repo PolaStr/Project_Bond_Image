@@ -16,6 +16,15 @@ public class Dialogue_Script : MonoBehaviour
     public GameObject ImageChoiceAB;
     public GameObject ImageChoiceBA;
     public GameObject ImageChoiceBB;
+    public GameObject ImageChoiceAAA;
+    public GameObject ImageChoiceAAB;
+    public GameObject ImageChoiceABA;
+    public GameObject ImageChoiceABB;
+    public GameObject ImageChoiceBAA;
+    public GameObject ImageChoiceBAB;
+    public GameObject ImageChoiceBBA;
+    public GameObject ImageChoiceBBB;
+    
     public int ChoiceMade;
 
     public void ChoiceOption1()
@@ -33,7 +42,6 @@ public class Dialogue_Script : MonoBehaviour
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "In the vast tapestry of existence, our souls, shaping our perceptions and urge.\r\nSo, share your preference, let it be heard,\r\nFor in the dialogue of tones, our perspectives are stirred.";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "My preference leans towards the depths of darkness' embrace,\r\nWhere introspection thrives, unveiling mysteries in its trace.\r\nYet, light's radiance also holds a special place in my heart,\r\nIlluminating the path, igniting hope, a vibrant start.";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "In this vast tapestry of existence, where our souls intertwine,\r\nOur preferences, like brushstrokes, define the hues that align.\r\nAs for me, I find solace in the interplay of both,\r\nEmbracing the duality, cherishing their growth.";
-            // Update with appropriate UI elements for Choice AA
             ImageChoiceA.SetActive(false);
             ImageChoiceAA.SetActive(true);
             ChoiceMade = 3;
@@ -43,11 +51,51 @@ public class Dialogue_Script : MonoBehaviour
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "In the vast tapestry of existence, our souls, shaping our perceptions and urge.\r\nSo, share your preference, let it be heard,\r\nFor in the dialogue of tones, our perspectives are stirred.";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "My preference leans towards the depths of darkness' embrace,\r\nWhere introspection thrives, unveiling mysteries in its trace.\r\nYet, light's radiance also holds a special place in my heart,\r\nIlluminating the path, igniting hope, a vibrant start.";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "In this vast tapestry of existence, where our souls intertwine,\r\nOur preferences, like brushstrokes, define the hues that align.\r\nAs for me, I find solace in the interplay of both,\r\nEmbracing the duality, cherishing their growth.";
-            // Update with appropriate UI elements for Choice AB
             ImageChoiceA.SetActive(false);
             ImageChoiceAB.SetActive(true);
-            ChoiceMade = 4;
+            ChoiceMade = 5;
         }
+        else if (ChoiceMade == 3) //4 wyniki - razem 8
+        {
+            NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
+            AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
+            AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
+            ImageChoiceA.SetActive(false);
+            ImageChoiceAA.SetActive(false);
+            ImageChoiceAAA.SetActive(true);
+            ChoiceMade = 7;
+        }
+        else if (ChoiceMade == 4)
+        {
+            NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
+            AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
+            AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
+            ImageChoiceA.SetActive(false);
+            ImageChoiceAA.SetActive(false);
+            ImageChoiceAAB.SetActive(true);
+            ChoiceMade = 9;
+        }
+        else if (ChoiceMade == 5)
+        {
+            NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
+            AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
+            AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
+            ImageChoiceA.SetActive(false);
+            ImageChoiceAB.SetActive(false);
+            ImageChoiceABA.SetActive(true);
+            ChoiceMade = 11;
+        }
+        else if (ChoiceMade == 6)
+        {
+            NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
+            AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
+            AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
+            ImageChoiceA.SetActive(false);
+            ImageChoiceAB.SetActive(false);
+            ImageChoiceABB.SetActive(true);
+            ChoiceMade = 13;
+        }
+
     }
 
     public void ChoiceOption2()
@@ -65,20 +113,58 @@ public class Dialogue_Script : MonoBehaviour
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "In the vast tapestry of existence, our souls, shaping our perceptions and urge.\r\nSo, share your preference, let it be heard,\r\nFor in the dialogue of tones, our perspectives are stirred.";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "My preference leans towards the depths of darkness' embrace,\r\nWhere introspection thrives, unveiling mysteries in its trace.\r\nYet, light's radiance also holds a special place in my heart,\r\nIlluminating the path, igniting hope, a vibrant start.";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "In this vast tapestry of existence, where our souls intertwine,\r\nOur preferences, like brushstrokes, define the hues that align.\r\nAs for me, I find solace in the interplay of both,\r\nEmbracing the duality, cherishing their growth.";
-            // Update with appropriate UI elements for Choice BA
             ImageChoiceA.SetActive(false);
             ImageChoiceBA.SetActive(true);
-            ChoiceMade = 5;
+            ChoiceMade = 4;
         }
         else if (ChoiceMade == 2)
         {
             NarratorBox.GetComponent<TextMeshProUGUI>().text = "In the vast tapestry of existence, our souls, shaping our perceptions and urge.\r\nSo, share your preference, let it be heard,\r\nFor in the dialogue of tones, our perspectives are stirred.";
             AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "My preference leans towards the depths of darkness' embrace,\r\nWhere introspection thrives, unveiling mysteries in its trace.\r\nYet, light's radiance also holds a special place in my heart,\r\nIlluminating the path, igniting hope, a vibrant start.";
             AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "In this vast tapestry of existence, where our souls intertwine,\r\nOur preferences, like brushstrokes, define the hues that align.\r\nAs for me, I find solace in the interplay of both,\r\nEmbracing the duality, cherishing their growth.";
-            // Update with appropriate UI elements for Choice BB
             ImageChoiceB.SetActive(false);
             ImageChoiceBB.SetActive(true);
             ChoiceMade = 6;
+        }
+        else if (ChoiceMade == 3) //4 wyniki - razem 8
+        {
+            NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
+            AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
+            AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
+            ImageChoiceA.SetActive(false);
+            ImageChoiceBA.SetActive(false);
+            ImageChoiceBAA.SetActive(true);
+            ChoiceMade = 8;
+        }
+        else if (ChoiceMade == 4)
+        {
+            NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
+            AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
+            AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
+            ImageChoiceA.SetActive(false);
+            ImageChoiceBA.SetActive(false);
+            ImageChoiceBAB.SetActive(true);
+            ChoiceMade = 10;
+        }
+        else if (ChoiceMade == 5)
+        {
+            NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
+            AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
+            AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
+            ImageChoiceA.SetActive(false);
+            ImageChoiceBB.SetActive(false);
+            ImageChoiceBBA.SetActive(true);
+            ChoiceMade = 12;
+        }
+        else if (ChoiceMade == 6)
+        {
+            NarratorBox.GetComponent<TextMeshProUGUI>().text = "BLa";
+            AnswerBoxA.GetComponent<TextMeshProUGUI>().text = "Ble ble";
+            AnswerBoxB.GetComponent<TextMeshProUGUI>().text = "Bla Bla";
+            ImageChoiceA.SetActive(false);
+            ImageChoiceBB.SetActive(false);
+            ImageChoiceBBB.SetActive(true);
+            ChoiceMade = 14;
         }
     }
 
