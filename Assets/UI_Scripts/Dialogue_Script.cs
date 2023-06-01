@@ -36,10 +36,5 @@ public class Dialogue_Script : MonoBehaviour
         {
             ImageChoice00.SetActive(false);
         }
-
-        if (ChoiceMade == 1)
-        {
-            ImageChoiceA.SetActive(true);
-        }
     }
 }
